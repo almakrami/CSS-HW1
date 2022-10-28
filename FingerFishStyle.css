@@ -1,0 +1,238 @@
+.screen{
+    width: 60%;
+    margin: auto;;
+}
+
+
+body{
+    text-align: center;
+    background-image: url("silverware.jpg");
+    font-family: 'Segoe UI';
+    align-items: center;
+    background-repeat: repeat-y;
+
+
+}
+
+
+h1{
+   /* display: inline-block;*/
+    text-align: center;
+    color: #a4a400;
+   
+    border-color: #73ad21 ;
+    background-color: #f0f0f0;
+    border-style: groove;
+    border-radius: 25px;
+   
+    padding: 20px 25px ; 
+    width: 50%;
+    margin: auto;
+    
+}
+
+h3{
+    text-align: center;
+    color: #a4a400;
+    background-color: #f0f0f0;
+
+    border-color: #73ad21 ;
+    border-style: groove;
+    border-radius: 25px;
+    
+
+    padding: 1.3rem;
+    margin: auto;
+   
+
+    width: 40%;
+    
+   
+
+    
+}
+
+.makes{
+    text-align: center;
+}
+
+#Jumbo {
+    border-radius: 50%;
+    float: center;
+    width: 20rem;
+    height: 9rem;
+    object-fit: cover;
+    margin-top: 6px;
+}
+
+hr{
+    max-width: 1024px;
+}
+
+.ingrediants{
+    column-count:3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: #a4a400;
+    padding: 2px;
+    text-align: left;
+}
+
+.ul-resp1{
+    list-style-image: url('fish_icon_24.png');
+    text-align: left;
+
+}
+
+.method{
+    column-count:3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: #a4a400;
+    padding: 2px;
+    text-align: left;
+}
+.ul-resp2{
+    list-style-image: url('fish_icon_24.png');
+    text-align: left;
+
+}
+
+.pic{
+    justify-content: center;
+    display: flex;
+
+}
+
+.ul-resp3{
+    list-style-image: url('fish_icon_24.png');
+    text-align: left;
+
+}
+
+.form1{
+    display:inline-block;
+    margin: auto;
+    width: 99%;
+    padding: auto;
+    text-align: left;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: auto;
+    margin: 20 30% 10 30%;
+    box-sizing: border-box;
+  }
+
+.fieldset-radio{
+    text-align: center;
+}
+.comment{
+    text-align: left;
+    margin: 20px 30% 10px 30%;
+}
+.allCommnet-1{
+    background-color: #ffffa8;
+}
+
+.allCommnet-2{
+    background-color: #ffffa8;
+}
+
+.personal{
+    text-align: left;
+    margin: 20px 30% 10px 30%;
+}
+
+
+.types{
+    text-align: left; 
+    margin: 20px 30% 10px 30%;
+}
+
+#link{
+    color: #a4a400;
+}
+
+.index{
+    column-count:3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: #a4a400;
+    padding: 2px;
+
+}
+
+.box{
+    padding: 2px;
+}
+#Jumbo2{
+    border-radius: 50%;
+    float: center;
+    width: 20rem;
+    height: 9rem;
+    object-fit: cover;
+    margin-top: 6px;
+}
+#Chicken{
+    border-radius: 40%;
+    float: center;
+    width: 20rem;
+    height: 9rem;
+    object-fit: cover;
+    margin-top: 6px;
+}
+#Chocolate{
+    border-radius: 100%;
+    float: center;
+    width: 20rem;
+    height: 9rem;
+    object-fit: cover;
+    margin-top: 6px;
+}
+
+/*tablet*/
+@media all and (min-width:321px) and (max-width:768px) {
+    .ingrediants{
+        column-count:2;
+    }
+    .form-cont{
+        width: 60%;
+    }
+    .screen{
+        width: 700px;    
+        margin: auto;
+        }
+}
+
+/*phone*/
+@media all and (max-width:320px) {
+    .ingrediants{
+        column-count:1;
+    }
+    .form-cont{
+        width: 70%;
+    }
+    .screene{
+        width: 400px;    
+        margin: auto;
+        }
+        h1{
+            width: 90%;
+            padding:23px ;
+            font-size: x-large;
+        }
+        h2{
+            width: 70%;
+            height: 50%;
+            font-size: large;
+        }
+        h3{
+            
+            width: 70%;
+            height: 50%;
+            font-size: large;
+        }
+
+}
